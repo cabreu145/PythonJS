@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title >
+        CRUD
+    </title>
+    <link rel="stylesheet" href="css/signin.css">
+</head>
+
+<body id="body">
+    <div>
+            <img  id="logo" src="https://i.ibb.co/cJ8WkTd/python-in-javascript-1.png" alt="python-in-javascript-1" border="0">
+            
+    </div>
+    
+
+<div id="divcard">
+    <table>
+        <tr>
+            <td>
+                <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+                    <div id="cardbody">
+                        <label class="tipografia">Nombre*</label><label class="validation-error hide" id="nombreValidationError">Este campo es obligatorio.</label>
+                        <input type="text" name="fullName" id="nombre">
+                    </div>
+                    <div id="cardbody">
+                        <label class="tipografia">Matricula</label>
+                        <input type="text" name="empCode" id="matricula">
+                    </div>
+                    <div id="cardbody">
+                        <label class="tipografia">Insumo</label>
+                        <input type="text" name="salary" id="insumo">
+                    </div>
+                    <div id="cardbody">
+                        <label class="tipografia">Materia</label>
+                        <input type="text" name="city" id="materia">
+                    </div>
+                    <div  class="form-action-buttons">
+                        <input type="submit" value="Enviar">
+                    </div>
+                </form>
+            </td>
+            <td>
+                <table class="list" id="listainsumos">
+                    <thead>
+                        <tr>
+                            <th id="thtabla">Nombre</th>
+                            <th id="thtabla">Matricula</th>
+                            <th id="thtabla">Insumo</th>
+                            <th id="thtabla">Materia</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody id="consulta">
+
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+</div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Devend Software Development</title>
+
+    
+    
+    <link rel="stylesheet" type="text/css" href="css/signin.css" />
+    
+</head>
+
+<body id="body">
+    
+    <div  >
+        <div >
+            <div >
+                <div  id="divcard" >
+                    <div  id="cardbody">
+                        <div class="tipografia">
+                                <table class="table" id="libros">
+                                        <thead>
+                                            <tr>
+                                                <th>Documento</th>
+                                                <th>Autor</th>
+                                                
+                                                
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                    
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                        </div>
+                        <form class="form-signin" onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+                            <img class="mb-3" src="" alt="" width="72" height="72" id="logo">
+                                <div class="title" >CRUD</div>
+                                    <label for="name" id="label"  class="tipografia">Documento</label>
+                                        <input id="form" type="text" id="name" class="tipografia" placeholder="Nombre Documento"  >
+                                            <input type="text" placeholder="Autor" id="autor" class="tipografia">
+                                                 <div class="radiobutton">
+                                                        <input type="checkbox" name="PDF" id="PDF">
+                                                        <label for="PDF" class="tipografia"">PDF</label>
+                                                    </div>
+
+                                                            <div class="select" >
+                                                                    <select>
+                                                                            <option value="0">Categoría:</option>
+                                                                            <option value="1">Suspenso</option>
+                                                                            <option value="2">Terror</option>
+                                                                          </select>
+                                                                        </div> 
+                                                       
+
+                                                <input id="Acceder" type="submit" value="Añadir" class="tipografia" >
+                                                
+                        </form>
+
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/script.js"></script>
+</body>
+
+</html> -->

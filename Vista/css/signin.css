@@ -1,0 +1,287 @@
+body > table{
+  width: 80%;
+  background-color: #dddddd;
+}
+
+table{
+  border-collapse: collapse;
+  
+}
+table.list{
+  width:100%;
+  
+}
+
+td, th {
+  border: none;
+  
+  text-align: left;
+  padding: 10px;
+  
+}
+tr:nth-child(even),table.list thead>tr {
+  background-color: #dddddd;
+}
+
+#consulta{
+  background-color: #dddddd;
+  font-family: 'Myriad Pro','Helvetica Neue', Helvetica;
+  font-weight:bold;
+  font-size: 12px;
+  
+}
+
+#logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  padding-bottom: 5px;
+  width: 5cm; 
+  height: auto;
+}
+
+input[type=text], input[type=number] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit]{
+    background-color:   rgb(255, 197, 5);
+    zoom: 50%;
+    margin-bottom: auto;
+    margin-right: auto;
+    scroll-margin-left: auto;
+	  font-style: normal;
+    font-weight: lighter;
+    font-size: 38px;
+	  color: rgb(255, 255, 255,);
+    width: 6cm;
+    height: 2cm;
+    border-radius: .3cm;
+    cursor: pointer;
+    
+} 
+
+form div.form-action-buttons{
+  text-align: right;
+}
+
+a{
+  cursor: pointer;
+  text-decoration: underline;
+  color: #0000ee;
+  margin-right: 4px;
+}
+
+label.validation-error{
+  color:   rgb(252, 0, 0);
+  margin-left: 5px;
+  text-shadow: tomato;
+}
+/* Clases */
+
+.list {
+  padding: 1rem; height: auto;;
+  border-radius: 5px;
+  margin: auto;
+}
+
+.title {
+  position:relative;
+  font-family: 'Myriad Pro','Helvetica Neue', Helvetica;
+  font-weight:bold;
+  font-size: 25px;
+  text-shadow: 0px 1px 2px rgba(255,255,255,.5);
+  color: rgb(255, 255, 255);
+  text-align:center;
+}
+.tipografia{
+  font-family: 'Myriad Pro','Helvetica Neue', Helvetica;
+  font-weight:bold;
+  font-size: 20px;
+}
+.hide{
+  display:none;
+}
+
+#divcard{
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  top: 30%;
+  left: 50%;
+  margin-right: -10%;
+  
+  
+  
+}
+#cardbody{
+  padding: 1rem; height: auto; color: whitesmoke;
+  
+  margin: auto;
+}
+#body{
+  background-color: rgb(20, 40, 60);
+}
+#editar, #eliminar{
+    
+	  font-style: normal;
+    font-weight: lighter;
+    font-size: 15px;
+    font-variant: normal;
+	  color: rgb(255, 255, 255,);
+    width: 6cm;
+    height: 2cm;
+    border-radius: .3cm;
+    padding-right: 40%;
+    
+
+}
+#thtabla{
+  font-family: 'Myriad Pro','Helvetica Neue', Helvetica;
+  font-weight:bold;
+  font-size: 20px;
+  color: rgb(255, 255, 255,);
+  width: auto;
+  height: auto;
+  
+	  
+}
+
+
+/* #divcard{
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    top: 30%;
+    left: 50%;
+    margin-right: -10%;
+    
+    
+    
+}
+#cardbody{
+    padding: 1rem; height: auto; color: whitesmoke;
+    
+    margin: auto;
+}
+#body{
+    background-color: rgb(20, 40, 60);
+}
+#label{
+    padding: 1rem; height: auto;
+   
+}
+#Acceder {
+    background-color:   rgb(255, 197, 5);
+    zoom: 50%;
+    margin-bottom: auto;
+    margin-right: auto;
+    scroll-margin-left: auto;
+	font-style: normal;
+    font-weight: lighter;
+    font-size: 38px;
+	color: rgb(255, 255, 255,);
+    width: 6cm;
+    height: 2cm;
+    border-radius: .3cm;
+    padding-right: 40%;
+    cursor: pointer;
+    
+}
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tipografia{
+    font-family: 'Myriad Pro','Helvetica Neue', Helvetica;
+    font-weight:bold;
+    font-size: 20px;
+}
+
+.title {
+    position:relative;
+      font-family: 'Myriad Pro','Helvetica Neue', Helvetica;
+    font-weight:bold;
+    font-size: 25px;
+    text-shadow: 0px 1px 2px rgba(255,255,255,.5);
+    color: rgb(255, 255, 255);
+    text-align:center;
+  }
+.radiobutton{
+    display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+.select{
+    width:200px;
+}
+.table{
+  color: whitesmoke;
+  background-color: rgba(255,255,255,.5) ;
+  margin: 20px auto 0;
+    padding: 10px;
+    width: 280px
+}
+  
+  form {
+    background: none;
+    margin: 20px auto 0;
+    padding: 10px;
+    width: 280px;
+  }
+  
+  input {
+    display: block;
+    font-size: 14px;
+    width:240px;
+    margin: 10px auto;
+    padding: 10px 8px 10px 8px;
+
+    
+    background: none;
+    color: whitesmoke;
+    border: none;
+    
+    
+    
+}
+  input[type="submit"] {
+    background-image: linear-gradient(to right, #000, #000);
+    
+  
+    text-indent: 1.4cm;
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    outline: none;
+    font: xx-small;
+    
+  }
+
+  input[type="text"]::-moz-input-placeholder {
+    font-weight: normal;
+    text-decoration: underline;
+    text-decoration-color: rgba(251,175,93,1);  
+}
+::-webkit-input-placeholder {
+    border-bottom: 3px solid rgb(255, 255, 255);
+    font-size: .5cm;
+    white-space: nowrap;
+  }
+#Texto{
+    grid-column: span 6;
+}
+#PDF{
+    grid-column: span 6;
+    
+    
+}
+
+   */
+  
